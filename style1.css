@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: whitesmoke;
+    box-sizing: content-box;
+}
+
+h1 {
+	color: grey;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: 'luminara', sans-serif;
+}
+
+.title{
+	color: goldenrod;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: grey;
+    border: grey;
+	color:grey;
+    height: 50px;
+    border-radius: 25px;
+    width: 370px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.0rem;
+}
+
+.add{
+	outline: grey;
+    border: grey;
+    height: 50px;
+    border-radius: 25px;
+    width: 60px;
+    background-color: goldenrod;
+    color: grey;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid grey;
+	margin-bottom: 1.5rem;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: grey;
+	font-size: 1.4rem;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: goldenrod;
+	font-size: 1.2rem;
+	font-family: 'Helvetica', sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: grey;
+	font-size: 1.2rem;
+	font-family: 'Helvetica', sans-serif;
+	cursor: pointer;
+}
